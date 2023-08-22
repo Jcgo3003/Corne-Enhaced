@@ -9,16 +9,12 @@ This is a keyboard designed for a macOS environment with a Dvorak layout, so mos
 - [Features](#Features)
 - [Other Features](#Other_Features)
 - [Usage](#Usage)
-- [Hardware Mods](#Hardware_Mods)
 - [Diagrams](#Diagrams)
 - [Layout](#Layout)
-- [Disclaimer](#Disclaimer)  
-- [Contributing](#Contributing)
 - [Compiled Size](#Compiled_Size)
 - [Possible Updates](#Possible_Updates)
 - [FAQ](#FAQ)
 - [Credits](#Credits)
-- [License](#License)
 
 ## Features
 
@@ -135,13 +131,9 @@ local qmk folder and place it into keyboards/crkbd/keymaps then run:
 
 * Alternatively, you can also just flash the firmware ![file](Firmware/crkbd_rev1_Jcgo.hex)
 
-# Compiled Size
+## Compiled Size
 
 * The firmware size is approaching the maximum - 28470/28672 (99%, 202 bytes free)
-
-## Hardware Mods
-
-All the diagrams are available in the 'Diagrams' folder, as well as the electronic components needed for the mods. You don't need to do all modifications at once; it's ready to run from the first flash. Even the joystick or the encoders should be functional. So you can begin with any hardware mod. The only modifications you might need or want to change would be mappings for the encoders and the extra 6 keys (in the keymap.c file).
 
 ## ![Diagrams](Diagrams/Diagrams.md)
 
