@@ -7,12 +7,13 @@ This is a keyboard designed for a macOS environment with a Dvorak layout, so mos
 ## Table of Contents
 
 - [Features](#Features)
-- [Other Features](#Other_Features)
+- [Other_Features](#Other_Features)
+- [Key_Combinations](Key_Combinations)
 - [Usage](#Usage)
 - [Diagrams](#Diagrams)
 - [Layout](#Layout)
-- [Compiled Size](#Compiled_Size)
-- [Possible Updates](#Possible_Updates)
+- [Compiled_Size](#Compiled_Size)
+- [Possible_Updates](#Possible_Updates)
 - [FAQ](#FAQ)
 - [Credits](#Credits)
 
@@ -66,7 +67,7 @@ This is a keyboard designed for a macOS environment with a Dvorak layout, so mos
 * LED lights:
 	- No RGB lights or animations due to lack of memory space
 
-## Other Features
+## Other_Features
 
 ### Tap Dance 
 * alt/cmd 
@@ -74,7 +75,7 @@ This is a keyboard designed for a macOS environment with a Dvorak layout, so mos
 * cmd+shift+s/cmd+ - | Save/Save as
 * cmd+c/8 					 | Copy/8
 
-# Key Combinations
+## Key_Combinations
 
 This keyboard is focused on macOS with Dvorak Bindings. Saying this for some reason, on a Dvorak layout, the keys get physically mapped. For example, the copy shortcut uses cmd + c on a QWERTY layout. There's no problem; you just map it normally as LGUI(KC_C). On the other hand, on a Dvorak layout, you should map the physical place of C on the layout, which is I. So that's why I mapped LGUI(KC_I).
 
@@ -101,7 +102,7 @@ Most of the universal ones should also work fine on Linux and Windows using the 
 |Close Tab    | cmd + w         | LGUI(KC_W)      | LGUI(KC_COMM)   | All-check     |
 |Tab Nav      | cmd + Tab       | SGUI(KC_TAB)    | Same            | All-check     |
 
-# macOS Only
+### macOS Only
 
 | Shortcut        | macOS           | QWERTY  		  | Dvorak        | 
 |:-				        |:-				        |:-					|:-				      | 
@@ -131,11 +132,17 @@ local qmk folder and place it into keyboards/crkbd/keymaps then run:
 
 * Alternatively, you can also just flash the firmware ![file](Firmware/crkbd_rev1_Jcgo.hex)
 
-## Compiled Size
+## Compiled_Size
 
 * The firmware size is approaching the maximum - 28470/28672 (99%, 202 bytes free)
 
-## ![Diagrams](Diagrams/Diagrams.md)
+## Diagrams
+
+* Check the diagrams ![folder](Diagrams)
+
+## Layout
+
+* Check the Qmk configurator ![folder](QMK_Configurator)
 
 # Electronic Components 
 
@@ -184,7 +191,7 @@ Example:
 
 Copy binding on a QWERTY macOS layout should be: cmd + c, but because of this strange behavior, I wrote cmd + i where 'i' is the place on the physical keyboard for c. So, in the end, it's written LGUI(KC_C) instead of LGUI(KC_I).
 
-## Possible Updates
+## Possible_Updates
 - Detect the host OS and automatically use swap Ctrl/GUI
 - Use smart zoom on macOS (I think it's not possible because it's reserved only for the trackpad)
 
