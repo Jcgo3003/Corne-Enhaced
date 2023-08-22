@@ -128,9 +128,10 @@ KC_GRV  = §
 
 ## Usage
 
-To compile and flash from the `qmk setup` folder, run:
+To compile and flash from the `qmk setup` folder, copy the 'Code' folder to your
+local qmk folder and place it into keyboards/crkbd/keymaps then run:
 
-	$ qmk flash -c -kb crkbd/rev1 -km 
+	$ qmk flash -c -kb crkbd/rev1 -km Code
 
 * Alternatively, you can also just flash the firmware ![file](Firmware/crkbd_rev1_Jcgo.hex)
 
