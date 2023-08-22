@@ -8,7 +8,7 @@ This is a keyboard designed for a macOS environment with a Dvorak layout, so mos
 
 - [Features](#Features)
 - [Other_Features](#Other_Features)
-- [Key_Combinations](Key_Combinations)
+- [Key_Combinations](#Key_Combinations)
 - [Usage](#Usage)
 - [Diagrams](#Diagrams)
 - [Layout](#Layout)
@@ -138,11 +138,11 @@ local qmk folder and place it into keyboards/crkbd/keymaps then run:
 
 ## Diagrams
 
-* Check the diagrams ![folder](Diagrams)
+* Check the diagrams ![folder](Diagrams/Diagrams.md)
 
 ## Layout
 
-* Check the Qmk configurator ![folder](QMK_Configurator)
+* Check the Qmk configurator ![folder](QMK_Configurator/layout.md)
 
 # Electronic Components 
 
