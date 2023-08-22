@@ -1,4 +1,4 @@
-# Corne Keyboard ++
+# Corne Keyboard Enhaced
 
 I've made a subtle yet significant modification to the classic Corne keyboard. I've incorporated additional features to take the Corne keyboard beyond, adding 2 encoders, a joystick, and bringing back 6 buttons.
 
