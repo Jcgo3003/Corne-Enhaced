@@ -78,6 +78,7 @@ Here's a link to a video demo[(Youtube)](https://youtu.be/1MNg1b32AKg?si=rAImZgh
 
 ### Tap Dance 
 * alt/cmd 
+* Mouse Left Click/Open New tab
 * cmd+space/keycaps  | Search/keycaps
 * cmd+shift+s/cmd+ - | Save/Save as
 * cmd+c/8 					 | Copy/8
@@ -134,7 +135,7 @@ KC_GRV  = §
 
 * Corne Keyboard.
 * All or some of the electronic components on the list.
-* At least Qmk firmware version 1.1.2.
+* At least Qmk firmware version 0.21.1.
 
 ## Usage
 
