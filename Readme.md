@@ -4,9 +4,9 @@ I've made a subtle yet significant modification to the classic Corne keyboard. I
 
 This is a keyboard designed for a macOS environment with a Dvorak layout, so most of the mappings are only for macOS and use Dvorak bindings, yet it's more interesting funtions are available on any OS and layout.
 
-![Photos](01_Corne_Enhanced.JPG)
-![Photos](02_Left_Side.JPG)
-![Photos](03_Right_Side.JPG)
+![Photos](Photos/01_Corne_Enhanced.JPG)
+![Photos](Photos/02_Left_Side.JPG)
+![Photos](Photos/03_Right_Side.JPG)
 
 ## Table of Contents
 
