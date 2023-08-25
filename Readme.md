@@ -8,6 +8,8 @@ This is a keyboard designed for a macOS environment with a Dvorak layout, so mos
 ![Photos](Photos/02_Left_Side.JPG)
 ![Photos](Photos/03_Right_Side.JPG)
 
+Here's a link to a video demo[(Youtube)](https://youtu.be/1MNg1b32AKg?si=rAImZghK6m1tX_Jr)
+
 ## Table of Contents
 
 - [Features](#Features)
