@@ -1,14 +1,19 @@
 # Corne Keyboard Enhaced
 
-I've made a subtle yet significant modification to the classic Corne keyboard. I've incorporated additional features to take the Corne keyboard beyond, adding 2 encoders, a joystick, and bringing back 6 buttons.
+I've made a subtle yet significant modification to the classic Corne keyboard. I've incorporated additional features to take the Corne keyboard beyond, adding 2 encoders, a joystick, and bringing back 6 buttons, this it's only a funtional prototype but hopefully someday I'll be able to desing a proper board and case.
 
-This is a keyboard designed for a macOS environment with a Dvorak layout, so most of the mappings are only for macOS and use Dvorak bindings.
+This is a keyboard designed for a macOS environment with a Dvorak layout, so most of the mappings are only for macOS and use Dvorak bindings, yet it's more interesting funtions are available on any OS and layout.
+
+![Photos](01_Corne_Enhanced.JPG)
+![Photos](02_Left_Side.JPG)
+![Photos](03_Right_Side.JPG)
 
 ## Table of Contents
 
 - [Features](#Features)
 - [Other_Features](#Other_Features)
 - [Key_Combinations](#Key_Combinations)
+- [Requirements](#Requirements)
 - [Usage](#Usage)
 - [Diagrams](#Diagrams)
 - [Layout](#Layout)
@@ -123,6 +128,12 @@ Also, check the mapping you get with these keys; I think they change across the 
 KC_NUBS = `
 KC_GRV  = §
 
+## Requirements
+
+* Corne Keyboard.
+* All or some of the electronic components on the list.
+* At least Qmk firmware version 1.1.2.
+
 ## Usage
 
 To compile and flash from the `qmk setup` folder, copy the 'Code' folder to your
@@ -130,7 +141,7 @@ local qmk folder and place it into keyboards/crkbd/keymaps then run:
 
 	$ qmk flash -c -kb crkbd/rev1 -km Code
 
-* Alternatively, you can also just flash the firmware ![file](Firmware/crkbd_rev1_Jcgo.hex)
+* Alternatively, you can also just flash the firmware ![file](Firmware/crkbd_rev1_Jcgo.hex) and should be working fine.
 
 ## Compiled_Size
 
@@ -201,3 +212,11 @@ Copy binding on a QWERTY macOS layout should be: cmd + c, but because of this st
 * @hellsingcoder[(GitHub)](https://github.com/HellSingCoder) - Luna animation
 * @yhren[(GitHub)](https://github.com/YHRen) - Pointing device code
 * @Bermeo[(GitHub)](https://git.bermeo.dev) - Multiple OS support and ideas
+
+And of course many thanks to the designer of this worderfull keyboard
+
+* @foostan[(GitHub)](https://github.com/foostan)
+
+## Donations
+
+If you have found this work to be valuable, I kindly ask you to consider making a donation to support my efforts. Your contribution would go a long way in helping me continue to create useful code and carry on with upcomming updates/upgrades. If you're inclined to contribute, you can do so through PayPal by following this link[(Paypal)](PayPal.Me/jcgo3003) Thank you!".

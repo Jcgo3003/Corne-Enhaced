@@ -8,6 +8,8 @@ a Thumbwheel on my leftside only on the right side but it is possible
 to have it on both sides or only one side.
 
 ![Left_Side](01_Left_Side.png)
+![Left_Side](01_Left_Side.JPG)
+![Left_Side](02_Left_Side_Joy.JPG)
 
 ## Right side
 
@@ -19,6 +21,8 @@ the diagram.
 Remenber to conect the encoder only on B6 and B2
 
 ![Right_Side](02_Right_Side.png)
+![Right_Side](03_Right_Side.JPG)
+![Right_Side](04_Right_side.JPG)
 
 * Don't fortget to conect the Joystick and the encoder to Vcc and ground.
 
@@ -29,8 +33,11 @@ Remenber to conect the encoder only on B6 and B2
 ## Anduino Encoder
 
 ![Arduino_Encoder](04_Arduino_Encoder.png)
+![Right_Side](05_right_encoder.JPG)
 
 ## Thumbwheel button
+
+Yes, I did stick the Thumbwheel with Kola loka glue and baking soda.
 
 ![Tripod Thumbwheel Toggle Switch](05_Thumbwheel.png)
 
